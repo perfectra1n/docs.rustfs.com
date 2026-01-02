@@ -186,6 +186,16 @@ export const sidebar = [
             link: '/administration/iam/access-token'
           }
         ]
+      },
+      {
+        text: 'Monitoring',
+        link: '/administration/monitoring',
+        items: [
+          {
+            text: 'Prometheus Endpoints',
+            link: '/administration/monitoring/prometheus'
+          }
+        ]
       }
     ]
   },
